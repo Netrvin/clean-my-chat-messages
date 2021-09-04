@@ -1,0 +1,12 @@
+[DEFAULT]
+# 从 my.telegram.org 获取
+API_ID=
+API_HASH=
+# 群组最低成员数，低于该数值的群组中的消息不会被删除
+MIN_MEMBERS=0
+# 消息保留期限（单位：小时），只有超出期限的消息才会被删除
+PRESERVE_PERIOD=168
+# 是否保留 pinned message
+PRESERVE_PINNED_MESSAGES=yes
+# 是否仅扫描将要删除的消息，不进行删除操作
+SCAN_ONLY=yes
